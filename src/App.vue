@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <router-view></router-view> <!-- Renderiza o componente correspondente à rota -->
     <HelloWorld />
     <AppHeader />
     <Content />
